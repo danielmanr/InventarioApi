@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InventarioAPI.Application.DTOs
 {
-    internal class DTOs
+    public class LoginResponseDto
     {
+        public string Token { get; set; } = string.Empty;
     }
 }
